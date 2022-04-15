@@ -1,0 +1,21 @@
+
+.LogoImage{
+    /* width: 358px; */
+    /* height: 137px; */
+    /* min-height: 137px; */
+    max-height: 230px;
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .LogoImage{
+        /* width: 214.8px; */
+        max-height: 200px;
+    }
+}
+@media only screen and (max-width: 768px) {
+   .LogoImage{
+       /* width: 214.8px; */
+       max-height: 150px;
+   }
+}

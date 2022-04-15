@@ -1,0 +1,22 @@
+.ImagesOfProducts{
+    width: 94.5%;
+    /* height: 1vw; */
+    margin: 30px auto;
+
+}
+.AddToCardButton{
+    
+    background-color: #FFB300 !important;
+    border-color: #141414 !important;
+    font-size: 12px;
+    border-radius:0px ;
+    width: 13% !important;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+.ProductDetails{
+    display: inline;
+    position: relative;
+    top:-50px;
+    left: 80%;
+}

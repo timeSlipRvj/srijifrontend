@@ -1,0 +1,138 @@
+
+.CalendarImage{
+    width: 100%;
+    height: auto;
+}
+.CalendarComponents{
+    margin: 25px 3%;
+}
+.MonthImage{
+    margin: 0px 4% ;
+}
+
+#ImportantDays{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 15px;
+}
+.ImportantDays{
+    margin-bottom: 20px;
+}
+.MonthInfo{
+    font-size: 20px;
+}
+#FestiveMonth{
+    font-size: 12px;
+}
+
+.FestiveDays{
+    width: 45%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.DowloadIcon{
+    font-size: 30px;
+    background-color: #fff;
+    border-radius:50% ;
+    position: relative;
+    top:-60px;
+    left: 95%;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 1156px) {
+    .FestiveDays{
+        width: 70%;
+        grid-template-columns: 1fr 1fr 1.5fr;
+
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .DowloadIcon{
+        font-size: 25px;
+        top:-50px;
+        left: 92%;
+    }
+
+    #ImportantDays{
+        font-size: 14px;
+}
+    #FestiveMonth{
+        font-size: 11px;
+    }
+.CalendarComponents{
+    margin: 25px 1%;
+}
+    .JustContent{
+        margin: 2%;
+    }
+    .MonthInfo{
+        font-size: 18px;
+    }
+   
+}
+@media only screen and (max-width: 570px) {
+    .DowloadIcon{
+        top:-50px;
+        left: 92%;
+    }
+
+    #ImportantDays{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    #FestiveMonth{
+        font-size: 11px;
+    }
+    .CalendarComponents{
+        margin: 25px 1%;
+    }
+    .JustContent{
+        margin: 2%;
+    }
+    .FestiveDays{
+    width: 85%;
+    }
+    .ExtraInfoContent{
+        font-size: 13px;
+    }
+    .MonthInfo{
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .FestiveDays{
+        font-size: 13px;
+    }
+
+}
+@media only screen and (max-width: 425px) {
+    .FestiveDays{
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1.5fr;
+        font-size: 12px;
+    }
+    .DowloadIcon{
+        top:-50px;
+        left: 92%;
+    }
+
+    #ImportantDays{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    #FestiveMonth{
+        font-size: 11px;
+    }
+    .CalendarComponents{
+        margin: 25px 1%;
+    }
+    .JustContent{
+        margin: 2%;
+    }
+
+   .DowloadIcon{
+       top: -40px;
+       left: 90%;
+   }
+}

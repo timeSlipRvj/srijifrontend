@@ -1,0 +1,4 @@
+.BlogCardsList{
+    display: flex;
+    flex-wrap: wrap ;
+}

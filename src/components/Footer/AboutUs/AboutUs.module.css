@@ -1,0 +1,27 @@
+.Aboutus, .TnC{
+    width: 58px;
+    text-align: right;
+}
+
+.Aboutus:hover,.TnC:hover{
+    border-bottom: 2px solid #FFB300;
+    transition:10ms;
+}
+.TnC{
+    width: 140px;
+}
+
+
+
+.AbtusTnc{
+    line-height: 50px;
+    color: #757575;
+    text-align: right;
+}
+
+@media only screen and (max-width: 860px){
+    .AbtusTnc{
+        text-align: center;
+        line-height: 25px;
+    }
+}

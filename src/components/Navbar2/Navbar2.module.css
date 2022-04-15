@@ -1,0 +1,546 @@
+
+.LogoImage{
+    /* width: 75px; */
+    max-height: 55px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.MainNav{
+    display: grid;
+    grid-template-columns: 4% 2.7fr 5fr 2.7fr 0.2fr 4%;
+    height: 65px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.AiOutlineRollback{
+  background-color: #FFB300;
+  border-radius: 50%;
+  padding: 3px;
+  font-size: 20px;
+  margin-right: 5%;
+}
+.Logo{
+    display: flex;
+    grid-column: 2/3;
+    justify-content: flex-start;
+    align-items: center;
+}
+.MenuLink{
+    grid-column: 3/4;
+    margin-top: 27px;
+}
+
+.MenuLink ul{
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+.HeaderOptions{
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0px !important;
+    font-size: 12px;
+}
+.MenuLink ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.Signup{
+    display: flex;
+    grid-column: 4/5;
+    align-items: center;
+    font-size: 10px;
+    color: #FFB300;
+    text-decoration: underline;
+    justify-content:flex-end;
+    margin-right: 15px;
+}
+
+.BiCart{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.DropdownMenu{
+    line-height: 30px;
+    border-radius: 0px;
+    border: 0px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.63);
+    text-align: center;
+}
+
+.Confirmation{
+    color: #0C8945;
+    width: 200px;
+    line-height: 20px;
+    margin:auto;
+    margin-bottom: 10px;
+}
+.Favourites{
+    color: red;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.SignUpButton,.SignUpButton:focus, .SignUpButton:hover,.SignUpButton:active,.SignUpButton:not(:disabled):not(.disabled).active, .SignUpButton:not(:disabled):not(.disabled):active, .SignUpButton:visited
+{
+    background-color:transparent !important;
+    height: 20px;
+    border: none !important;
+    float: right;
+    margin: 23px;
+    padding: 0px;
+    box-shadow: none !important;
+}
+.ProfilePicture{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.UserName{
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFB300;
+    text-decoration: underline;
+}
+.ProfileName{
+    margin-right: 20px;
+    display: inline;
+    float: right;
+    margin-top: 12px;
+    
+}
+.SignupResponsive{
+    display: none;
+}
+.SignInWithGoogle{
+    background-color: #EA4335 !important;
+    border-color: #EA4335 !important;
+    font-size: 12px;
+    border-radius:7px ;
+    width: 188px;
+    color: #fff;
+}
+.NewUser{
+    background-color: #FFB300 !important;
+    border-color: #FFB300 !important;
+    font-size: 12px;
+    border-radius:7px ;
+    width: 188px;
+    color: #fff;
+
+}
+.NormalSignInButton{
+    background-color: #fff !important;
+    border-color: #707070 !important;
+    color:#707070 !important;
+    font-size: 12px;
+    border-radius:7px ;
+    width: 188px;
+
+}
+.Or{
+    color: #757575;
+    text-align: center;
+}
+
+.DropDownItem{
+    background-color: #fff !important;
+    color: black !important;
+    text-align: center;
+}
+.HamburgerMenu{
+   vertical-align:middle;
+   display: none;
+}
+a{
+    color: black !important;
+}
+.LogOutOptions{
+    display: inline;
+}
+.LoggedInStatus{
+    background-color: #fff !important;
+    color: #000 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.AfterLoggedInDropdownItems{
+    background-color:#fff !important;
+    font-size: 13px !important;
+}
+.AfterLoggedInDropdownItems:hover{
+    background-color:rgb(238, 237, 237) !important;
+}
+#MyOrders, #MyProfileButton, #LogOut{
+    padding-left: 10px;
+}
+.InputDetails{
+    margin: 10px;
+    height: 36px;
+    width: 253px;
+    font-size: 13px;
+    display: block;
+    border: 1px solid #707070;
+    border-radius: 7px;
+}
+.ForgotPassword{
+    text-decoration: none;
+    color: #FFB300 !important;
+    display: flex;
+    float: right;
+    margin: 0px 5px 0px 0px;
+}
+.PasswordMatch{
+    color: green;
+}
+.PasswordDontMatch{
+    color: red;
+}
+
+.WishlistCount, .CartCount{
+    background-color: rgba(255, 255, 255, 0.651);
+    border-radius: 50%;
+    color: #000;
+    padding: 2px;
+    position: relative;
+    font-weight: 500;
+    font-size: 13px;
+    left: -7px;
+    top: -10px;
+    text-decoration: none !important;
+}
+
+.CartCount{
+    top: -30px;
+    left: 15px;
+    background-color: rgba(0, 0, 0, 0.548);
+    color:#fff;
+    padding: 5px;
+    border-radius: 90%;
+
+}
+.MobileMenuLink {
+    grid-column: 1/7;
+    position: absolute;
+    z-index: 99;
+    top: 340px;
+  }
+
+  .MobileMenuLink {
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+
+  .MobileMenuLink ul {
+      padding: 0px;
+    height: 200px;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+    list-style: none;
+    flex-direction: column;
+    align-items:center;
+  }
+
+@media only screen and (max-width: 1260px){
+    .MainNav{
+        grid-template-columns: 4% 2fr 5fr 3fr 0.2fr 4%;
+        height: 65px;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+}
+@media only screen and (max-width: 1125px){
+    .MainNav{
+        grid-template-columns: 4% 1.5fr 4fr 2fr 0.2fr 4%;
+        height: 65px;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+}
+@media only screen and (max-width: 1090px){
+    .MainNav{
+        grid-template-columns: 4% 1fr 4fr 1.8fr 0.2fr 4%;
+        height: 65px;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .MobileMenuLink {
+       padding: 0px;
+      }
+    .MainNav{
+        grid-template-columns: 4% 1.8fr 2fr 0.2fr 0.1fr 4%;
+    }
+    .MenuLink{
+        display: none;
+    }
+    .BiCart{
+        grid-column: 4/5;
+    }
+    .HamburgerMenu{
+        display: block;
+        padding-top: 15px;
+        text-align: center;
+    }
+    .CartCount{
+        top: -1px;
+        left: -10px;
+    }
+    
+}
+@media only screen and (max-width: 950px){
+    .CartCount{
+        top: -30px;
+        left: 15px;
+    }
+}
+@media only screen and (max-width: 850px){
+    .MainNav{
+        grid-template-columns: 4% 1.8fr 2fr 0.3fr 0.4fr 4%;
+    }
+    .WelcomeMsg{
+        display: none;
+    }
+    .ProfilePicture{
+        margin-right: 0px;
+    }
+    .CartCount{
+        top: -1px;
+        left: -10px;
+    }
+   
+}
+@media only screen and (max-width: 768px){
+    .Favourites{
+        font-size: 15px;
+    }
+    .ProfilePicture{
+        width: 20px;
+        height: 20px;
+    }
+    .BiCart{
+        font-size: 15px;
+    }
+    .ProfileName{
+        margin-right: 0px;
+    }
+    .LoggedInStatus{
+        padding:0px ;
+    }
+    .LogOutOptions{
+        padding: 0px;
+    }
+    .LoggedInStatus::after{
+        content: none !important;
+    }
+    .MobileMenuLink {
+      grid-column: 1/7;
+      position: absolute;
+      z-index: 99;
+      top: 270px;
+    }
+    .BiCart{
+      margin-top: 17px;
+    }
+  
+}
+@media only screen and (max-width: 613px){
+    .MainNav{
+        grid-template-columns: 4% 1.8fr 2fr 0.6fr 0.2fr 4%;
+    }
+    .Signup{
+        display: none;
+    }
+    .SignupResponsive{
+        display: block ;
+        color: #FFB300;
+        font-size: 10px;
+        text-decoration: underline ;
+    }
+  
+}
+@media only screen and (max-width: 425px){
+    .MainNav{
+        grid-template-columns: 4% 1.8fr 2fr 0.5fr 0.2fr 4%;
+    }
+}
+
+
+
+
+
+
+
+
+/* 
+
+..................... CSS CODE
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #212c3b;
+}
+
+header {
+  background-color: #141b25;
+}
+
+.main-nav {
+  height: 90px;
+}
+
+.logo {
+  color: white;
+  line-height: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 30px;
+  font-family: "AstroSpace", sans-serif;
+}
+
+.navlinks {
+  list-style: none;
+  float: right;
+  line-height: 90px;
+  margin: 0;
+  padding: 0;
+}
+
+.navlinks li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.navlinks li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s linear 0s;
+  text-transform: uppercase;
+}
+
+.navlinks li a:hover {
+  color: #7ebcb9;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #7ebcb9;
+}
+
+li a.contact {
+  background-color: #00adb5;
+  padding: 9px 20px;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  border-bottom: none;
+}
+
+li a.contact:hover {
+  background-color: #047e85;
+  color: white;
+  border-bottom: none;
+}
+
+#check {
+  display: none;
+}
+
+.menu-btn {
+  font-size: 25px;
+  color: white;
+  float: right;
+  line-height: 90px;
+  margin-right: 40px;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .navlinks {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    transition: all 0.5s;
+    right: -100%;
+    background: #222831;
+  }
+
+  .navlinks li {
+    display: block;
+  }
+
+  .navlinks li a {
+    font-size: 20px;
+  }
+
+  .navlinks li a:hover {
+    border-bottom: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  #check:checked ~ .navlinks {
+    right: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .logo {
+    margin-left: 10px;
+    font-size: 25px;
+  }
+
+  .menu-btn {
+    margin-right: 10px;
+    font-size: 25px;
+  }
+
+  .menu-btn:focus {
+    color: blue;
+  }
+} */
+
+/* ................................ HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav">
+        <input type="checkbox" id="check" />
+        <label for="check" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <a href="index.html" class="logo">andraWare</a>
+        <ul class="navlinks">
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#" class="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html> */

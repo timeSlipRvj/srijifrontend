@@ -1,0 +1,65 @@
+/* .CartItems{
+    width: 90%;
+    margin: 20px auto ;
+    border: 1px solid #FFB300;
+}
+.TotalCartItems{
+    display: flex;
+    padding: 10px 20px;
+    height: 43px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+}
+
+.CartItemsProducts{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.ProductDetails{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 1fr 1fr;
+    margin: auto;
+}
+
+.ProductInCart{
+    display: flex;
+    justify-content: space-around;
+    grid-column: 1/2;
+    width: 100px;
+    height: 118px;
+    margin: 20px 40px ;
+}
+
+.ProductDescription{
+    text-align: left;
+    margin:auto;
+    color: #3D3D3D;
+}
+.ProductName{
+    font-size: 13px;
+    font-weight: bold;
+}
+.ProductDescription a{
+    text-decoration: underline;
+    font-size: 12px;
+}
+.ProductAvailability{
+    color: green;
+    margin:auto;
+}
+.ProductCode{
+    font-size: 13px;
+    font-weight: 500;
+    margin: auto;
+}
+.Price,.Subtotal,.Quantity{
+    margin: auto;
+}
+
+.AlterQuantity{
+    font-size: 27px;
+} */

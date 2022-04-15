@@ -1,0 +1,5 @@
+.CarouselCardsList{
+    display: flex;
+    flex-wrap: wrap;
+    margin:1.5%;
+}

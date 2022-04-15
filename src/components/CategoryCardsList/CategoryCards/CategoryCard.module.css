@@ -1,0 +1,129 @@
+.CategoryName{
+    background-color: #FFB300 !important;
+    border-color: #FFB300 !important;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius:0px ;
+    width: 90%!important;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.CategoryCard{
+    width: 26%;
+    margin: 20px 3%;
+}
+.CardImage{
+    width: 100%;
+    height: 28vw;
+}
+.CategoryNameButton{
+    position: absolute;
+    width: 150px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .CategoryName{
+        background-color: #FFB300 !important;
+        border-color: #FFB300 !important;
+        font-size: 13px;
+        font-weight: 600;
+        border-radius:0px ;
+        width: 90%!important;
+        padding: 4px;
+        color: rgb(0, 0, 0);
+    }
+}
+@media only screen and (max-width: 600px) {
+    .CategoryCard{
+        width: 40%;
+        margin: 10px 5%;
+    }
+    .CardImage{
+        height: 42vw;
+    }
+    .CategoryName{
+        background-color: #FFB300 !important;
+        border-color: #FFB300 !important;
+        font-size: 12px;
+        font-weight: 500;
+        border-radius:0px ;
+        width: 70%!important;
+        padding: 3px;
+        color: rgb(0, 0, 0);
+    }
+}
+/* 
+.CategoryNameButton{
+    position: relative;
+    top: 343px;
+    left: 2%;
+}
+.CategoryName:hover{
+    width: 48%;
+    text-decoration: underline;
+    color: #000;
+}
+
+
+@media only screen and (max-width: 1330px) {
+    .CategoryNameButton{
+        top: 330px;
+    }
+}
+@media only screen and (max-width: 1287px) {
+    .CategoryNameButton{
+        top: 310px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .CategoryNameButton{
+        top: 290px;
+    }
+
+    
+}
+@media only screen and (max-width: 1140px) {
+    .CategoryNameButton{
+        top: 250px;
+    }
+}
+@media only screen and (max-width: 970px) {
+    .CategoryNameButton{
+        top: 230px;
+    }
+    .CategoryName{
+        font-size: 10px;
+        font-weight: 500;
+        padding: 2px;
+    }
+}
+@media only screen and (max-width: 890px) {
+    .CategoryNameButton{
+        top: 210px;
+    }
+}
+@media only screen and (max-width: 810px) {
+    .CategoryNameButton{
+        top: 190px;
+    }
+    
+}
+@media only screen and (max-width: 730px) {
+    .CategoryNameButton{
+        top: 170px;
+    }
+    
+}
+@media only screen and (max-width: 650px) {
+    .CategoryNameButton{
+        top: 150px;
+    }
+    
+}
+@media only screen and (max-width: 590) {
+    .CategoryNameButton{
+        top: 100px;
+    }
+    
+} */

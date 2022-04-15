@@ -1,0 +1,12 @@
+.ProductDetails{
+    display: flex;
+    justify-content: left;
+    margin: 30px 4%;
+}
+
+@media only screen and (max-width: 1020px) {
+    .ProductDetails{
+        display: block;
+        margin:auto;
+    }
+}

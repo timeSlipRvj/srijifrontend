@@ -1,0 +1,53 @@
+.ProductImageDetails{
+    margin-top: 20px ;
+}
+.ProductImage{
+    width: 550px;
+    height: 600px;
+    display: inline-block;
+}
+.SlideImages{
+    width:190px;
+    height: 170px;
+    margin: 8px;
+}
+.ImageSlider{
+    width: 550px;
+    display: flex;
+    overflow-y:hidden;
+    overflow-x:scroll;
+}
+.ImageSlider::-webkit-scrollbar{
+    display: none;
+}
+
+@media only screen and (max-width: 1020px) {
+        .ProductImage{
+            width: 80%;
+            height: 600px;
+            display: inline;
+        }
+        .ProductImageDetails{
+            text-align: center;
+        }
+        .SlideImages{
+            max-width: 30%;
+        }
+        .ImageSlider{
+            width: 80%;
+            margin: auto;
+        }
+}
+        
+@media only screen and (max-width: 600px) {
+        .ProductImage{
+            width: 96%;
+            height: 99vw;
+            display: inline;
+        }
+        .ImageSlider{
+            width: 96%;
+            margin: auto;
+        }
+        
+}

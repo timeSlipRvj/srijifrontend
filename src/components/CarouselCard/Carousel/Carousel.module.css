@@ -1,0 +1,17 @@
+
+#CarouselImage{
+    height: 600px !important;
+    /* height: auto; */
+}
+.CallToActionButton{
+    background-color: #FFB300 !important;
+    color:#000 !important;
+    border: none !important;
+    outline: none !important;
+}
+
+@media only screen and (max-width: 1000px){
+    #CarouselImage{
+        height: auto !important;
+    }
+}

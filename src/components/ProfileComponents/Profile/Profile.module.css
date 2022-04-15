@@ -1,0 +1,149 @@
+.Profile{
+    margin-top: 15px;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: 1fr 2.7fr;
+}
+.ScrollingPartProfile{
+    height: 488px;
+    overflow-y: scroll;
+    padding-bottom: 30px; 
+}
+.ScrollingPartProfile ::-webkit-scrollbar{
+    display:none !important;
+}
+.ResponsiveAccountSettings{
+    display: none;
+}
+.ProfileSection{
+    width: 300px;
+    height: 488px;
+    margin-left: 4%;
+   padding: 20px 50px
+}
+.ProfilePicture{
+    width: 35px;
+    height: 35px;
+    border-radius: 50% ;
+    margin-right: 20px;
+}
+.UserName{
+    font-weight: 700;
+    font-size: 14px;
+}
+.MyOrders, .AccountSettings{
+    margin-top: 25px;
+    font-size: 14px;
+    cursor:pointer;
+}
+#MyOrders, #AccountSettings, #LogOut{
+    padding-left: 15px;
+}
+.RiAccountCircleFill{
+    font-size: 17px;
+}
+.AccountSettingsOptions{
+    line-height:40px;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+.aSettings{
+    color: #9D9D9D !important;
+    text-decoration: none !important;
+    cursor:pointer;
+    font-size: 14px;
+}
+.aSettings:hover{
+    color: #5a5a5a !important;
+}
+.LogOut{
+     margin-top: 150px;
+}
+
+@media only screen and (max-width: 1240px)
+{
+    .Profile{
+        display: block;
+        width: 100%;
+    }
+    .ProfileSection{
+        margin: 0px;
+        margin-left: none;
+        width: 100%;
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 10px 20px;
+    }
+    .AccountSettingsOptions{
+        padding-top: 0px;
+    }
+    .MyOrders, .AccountSettings{
+        margin-top: 0px;
+    }
+    .AccountSettingsOptions{
+        /* display: none; */
+    }
+    .LogOut{
+        margin-top: 0px;
+    }
+    .ResponsiveAccountSettings{
+        display: block;
+    }
+    .ResponsiveAccountSettingsButton{
+        background-color: transparent !important;
+        padding: 0px !important;
+        border: none !important;
+        color: #000 !important;
+        box-shadow: none !important;
+    }
+    
+    .ResponsiveAccountSettingsButton::after{
+        content: none;
+    }
+    .accountsettings{
+        display: none;
+    }
+}
+@media only screen and (max-width: 760px)
+{
+    .ProfileSection{
+        font-size: 12px !important;
+    }   
+    #MyOrders, #AccountSettings, #LogOut{
+        padding-left: 5px;
+    }
+    .ProfilePicture{
+        margin-right: 10px;
+    }
+
+    .UserName{
+        font-size: 12px;
+    }
+    .MyOrders, .AccountSettings, .LogOut{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1024px)
+{
+    .ScrollingPartProfile{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 550px)
+{
+    .MyOrders, .ResponsiveAccountSettings{
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+        
+    }
+    .ResponsiveAccountSettings{
+        margin-bottom: 10px;
+    }
+    
+}

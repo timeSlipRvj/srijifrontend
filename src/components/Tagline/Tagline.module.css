@@ -1,0 +1,31 @@
+.Tagline{
+    color: #0077FF;
+    font-size: 13px;
+    line-height: 30px;
+    margin-left: 4%;
+    margin-top: 4px;
+}
+.TaglineInNavbar{
+    color: #0077FF;
+    font-size: 13px;
+    line-height: 30px;
+    /* margin-left: 4%; */
+    margin-top: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+    .Tagline{
+        color: #0077FF;
+        font-size: 10px;
+        line-height: 30px;
+        margin-left: 4%;
+        margin-top: 4px;
+    }
+    .TaglineInNavbar{
+        color: #0077FF;
+        font-size: 10px;
+        line-height: 30px;
+        /* margin-left: 4%; */
+        margin-top: 4px;
+    }
+}

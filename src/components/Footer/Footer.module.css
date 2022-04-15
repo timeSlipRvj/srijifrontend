@@ -1,0 +1,110 @@
+.Footer{
+    box-shadow: -4px -4px 10px #00000029;
+}
+.FooterContent{
+    /* padding: 3% ; */
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: 0.8% 1.5fr 1fr 1.2fr 8% ;
+}
+.TaglineInFooter{
+    display: flex;
+}
+.LogoImageInFooter{
+    max-height: 200px;
+}
+input{
+    border: none;
+}
+.SectionA{
+    grid-column: 2/3;
+    justify-content: start;
+    margin: 50px;
+}
+.SectionB{
+    display: flex;
+    grid-column: 3/4;
+    justify-content: center;
+    align-items: center;
+}
+.SectionC{
+    grid-column: 4/5;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+.Facebook{
+    font-size: 30px;
+    color: #000;
+    float: right;
+    width: 50px;
+}
+.Instagram{
+    font-size: 30px;
+    color: #000;
+    float: right;
+}
+.SocialMediaIcon{
+    margin-top: 55px;
+}
+
+@media only screen and (max-width: 1337px){
+    .FooterContent{
+        display: grid;
+        grid-template-columns: 0.8% 1.6fr 1.5fr 1.2fr 8% ;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .SectionA{
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 1010px){
+    .FooterContent{
+        display: grid;
+        grid-template-columns: 0.8% 1.5fr 2fr 1.2fr 0.8% ;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .FooterContent{
+        display: inline;
+    }
+    .SectionA{
+        display: block;
+        text-align: center;
+    }
+    .LogoImageInFooter{
+        /* width: 300px; */
+        margin-top: 20px;
+    }
+    .SectionC{
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .Facebook{
+        text-align: center;
+        width: 50px;
+        float: none;
+        /* font-size: 30px; */
+    }
+    .AbtusTnc{
+        text-align: center !important;
+        line-height: 25px !important;
+    }
+    .Instagram{
+        text-align: center;
+        float: none;
+    }
+    .SocialMediaIcon{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .LogoImageInFooter{
+        width: 180px;
+    }
+}

@@ -1,0 +1,228 @@
+.ProductContentDetails{
+    width: 500px;
+    height: 680px;
+    margin-left: 5%;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+
+.ProductContentDetails::-webkit-scrollbar{
+    display: none;
+}
+.ProductQuestions{
+    text-align: right;
+    width: fit-content;
+    width: 50%;
+}
+.ProductAnswers{
+    text-align: left;
+    width: fit-content;
+    padding-left: 10px;
+    width: 50%;
+}
+.CategoryName, .ProductTags, .ProductDescHead{
+    font-size: 13px;
+    color: #171717;
+    margin-bottom: 10px;
+}
+.ProductName{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.Star{
+    color: #E6FF00;
+    font-size: 18px;
+    margin: 2px;
+    margin-bottom: 5px;
+}
+.ProductRating{
+    font-weight: 500;
+}
+.PriceAndDetails{
+    padding: 20px;
+    text-align: center;
+    /* text-align: center; */
+    width: 300px;
+    border-top: 1px solid #000;
+    line-height: 35px;
+}
+.ColorDropdown{
+    display: inline;
+    /* margin-left:15px; */
+}
+#Mrp{
+    text-decoration: line-through;
+    /* margin-left: 15px; */
+    color: red;
+}
+#Price{
+    font-weight: 800;
+    font-size: 20px;
+    /* margin-left: 15px; */
+}
+.PriceAndDetails{
+    display: flex;
+    justify-content: center;
+}
+.CartButtons{
+    width: 300px;
+}
+#Discount{
+    background-color: #FFEE00;
+    color: #000;
+    width: fit-content;
+    font-weight:500 ;
+    padding: 0px 5px;
+}
+.ExtraOptions{
+    font-size: 20px;
+}
+#Saved{
+    color: #0C8945;
+    font-weight: 700;
+    /* margin-left: 15px; */
+}
+#Delivery{
+    /* margin-left: 15px; */
+    width: 200%;
+}
+
+#Delivery::-webkit-scrollbar{
+    display: none;
+}
+.ColorDropdownButton, .ColorDropdownButton:hover, .ColorDropdownButton:active,.ColorDropdownButton:focus,.ColorDropdownButton:focus-visible{
+    background-color: #fff !important;
+    color: black !important;
+    border:none !important;
+    font-size: 14px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+#Qty{
+    /* margin-left: 10px; */
+}
+.AddSubtract{
+    box-shadow: 0px 3px 6px #00000029;
+    margin: 5px;
+}
+
+#ProductCode{
+    /* margin-left: 15px; */
+    font-weight: 500;
+}
+
+.CartButtons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.AddToCardButton{
+    background-color: #FFB300 !important;
+    border-color: #FFB300 !important;
+    font-size: 12px;
+    border-radius:0px ;
+    width: 48% !important;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+.BuyNowButton{
+    background-color: #fff !important;
+    color: #000 !important;
+    border: #FFB300 1px solid !important;
+    font-size: 12px;
+    padding: 5px;
+    border-radius:0px ;
+    width: 48% !important;
+
+}
+.ProductDescHead{
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.ProductText{
+    font-weight: 600;
+    font-size: 17px;
+    text-align: justify;
+}
+.ParagraphInProductSingles{
+    font-size: 15px;
+    margin: 0px;
+    font-weight:700;
+
+}
+.DropdownInProductSingles{
+    width: 120px;
+    font-size: 13px;
+}
+@media only screen and (max-width: 1020px) {
+    .ProductContentDetails{
+        width: 70%;
+        height: 500px;
+        margin: auto;
+        text-align: center;
+    }
+    .ProductText{
+        font-size: 15px;
+    }
+    .CategoryName, .ProductTags, .ProductDescHead{
+        font-size: 10px;
+    }
+    .PriceAndDetails{
+        width: 100%;
+    }
+    .CartButtons{
+        width: 100%;
+    }
+    .AddToCardButton, .BuyNowButton{
+        width: 33% !important;
+        font-size: 14px;
+        padding: 7px;
+    }
+    .CartButtons{
+        justify-content: space-evenly;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .ProductContentDetails{
+        width: 90%;
+        height: 500px;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .PriceAndDetails{
+        width: 100%;
+    }
+    .AddToCardButton, .BuyNowButton{
+        width: 33% !important;
+        font-size: 14px;
+        padding: 7px;
+    }
+    .CartButtons{
+        justify-content: space-evenly;
+    }
+    .ProductText{
+        font-size: 12px;
+    }
+    .ColorDropdownButton, .ColorDropdownButton:hover, .ColorDropdownButton:active,.ColorDropdownButton:focus,.ColorDropdownButton:focus-visible{
+        font-size: 11px;
+    }
+    #Price{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .ProductText{
+        font-size: 11px;
+    }
+    .ColorDropdownButton, .ColorDropdownButton:hover, .ColorDropdownButton:active,.ColorDropdownButton:focus,.ColorDropdownButton:focus-visible{
+        font-size: 10px;
+    }
+    #Price{
+        font-size: 12px;
+    }
+}
+
+

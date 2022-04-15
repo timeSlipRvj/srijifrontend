@@ -1,0 +1,85 @@
+.showReview {
+  width: 52.709vw;
+  height: auto;
+  border: 0.073vw solid #cdcdcd;
+  margin-top: 1.391vw;
+  margin-left: 7.009vw;
+  padding-bottom: 0.732vw;
+  display: flex;
+  flex-direction: column;
+}
+.userNameReview {
+  height: auto;
+  display: flex;
+  width: auto;
+  margin-top: 0.878vw;
+  margin-left: 0.878vw;
+}
+
+.reviewShow {
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+  margin-top: 0.732vw;
+  margin-left: 3.807vw;
+  font: normal normal normal 0.932vw/1.171vw Poppins;
+  color: #8d8d8d;
+}
+
+.reviewImage {
+  margin-top: 0.659vw;
+  margin-left: 1.245vw;
+  width: 50.220vw;
+  height: 5.637vw;
+}
+.reviewImage img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.roundCircle {
+  border-radius: 100%;
+  width: 2.782vw;
+  height: 2.782vw;
+  border: 0.073vw solid #707070;
+}
+.roundCircle img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.personName {
+  width: 18.887vw;
+  height: auto;
+  margin-left: 0.878vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #2d2d2d;
+}
+
+.reviewNo {
+  width: auto;
+  height: auto;
+  margin-left: 25.406vw;
+  font: normal normal normal 1.098vw/1.684vw Poppins;
+  color: #8d8d8d;
+}
+.product-input{
+  width: 150px;
+  height:25px;
+}
+.checkbox-flex{
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+.individual_save_box{
+  margin: 0.5em;
+}
+
+@media only screen and (max-width: 1200px) {
+    .showReview{
+        margin: 8px auto;
+    }
+}

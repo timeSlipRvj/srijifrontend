@@ -1,0 +1,81 @@
+.Months{
+    display: flex;
+    justify-content: space-around;
+    margin:30px  6% 20px 6%;
+    font-size: 12px;
+}
+.MonthMenuDropdown{
+    display: none;
+}
+.MonthNames{
+    background-color: #fff !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.PageFromBackend{
+    margin: 3%;
+}
+@media only screen and (max-width: 950px) {
+    .Months{
+        margin:30px 3% 20px 3%;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .Months{
+        margin:0px 0% 10px 0%;
+        display: block;
+        text-align: center;
+    }
+    .MonthNames{
+        display: none;
+    }
+    .MonthMenuDropdown{
+        display: block;
+        padding: 0px;
+        margin: 20px 0px;
+    }
+    .MonthMenuDropdownToggle{
+        color: #000 !important;
+        background-color: #ffb300 !important;
+        outline: none !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+    .MonthMenuDropdownToggle::after{
+        content: none !important;
+    }
+    
+
+}
+@media only screen and (max-width: 500px) {
+    .Months{
+        margin:0px 0% 10px 0%;
+        display: block;
+        text-align: center;
+    }
+    .MonthNames{
+        display: none;
+    }
+    .MonthMenuDropdown{
+        display: block;
+        padding: 0px;
+        margin: 20px 0px;
+
+    }
+    .MonthMenuDropdownToggle{
+        color: #000 !important;
+        background-color: #ffb300 !important;
+        outline: none !important;
+        border: none !important;
+        font-size: 12px;
+        box-shadow: none !important;
+    }
+    .MonthMenuDropdownToggle::after{
+        content: none !important;
+    }
+    .MonthMenuDropdownMenu{
+        font-size: 12px;
+        text-align: center;
+    }    
+
+}

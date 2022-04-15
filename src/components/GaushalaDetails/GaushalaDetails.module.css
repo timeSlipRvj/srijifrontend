@@ -1,0 +1,44 @@
+.GaushalaDetails{
+    margin: 1% 3%;
+    text-align: center;
+}
+.GaushalaName{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.NameAndPlace{
+    text-align: justify;
+
+}
+.Content{
+    padding-top: 12px;
+    line-height: 25px;
+    font-size: 15px;
+}
+.GaushalaPlace{
+    font-size: 12px ;
+}
+
+.OwnerWords{
+    margin-top: 50px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+.OwnerText{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Content{
+        font-size: 13px;
+        line-height: 21px;
+
+    }
+}
+
+@media only screen and (max-width: 979px) {
+   .OwnerWords{
+       margin-bottom: 30px;
+   }
+}

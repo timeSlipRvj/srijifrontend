@@ -1,0 +1,68 @@
+.Categories{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    /* display: grid;
+    grid-template-columns: 130px 1fr 130px; */
+    margin: 30px auto 18px auto
+
+}
+.CategoryList{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    font-size: 12px;
+    width: 80%;
+}
+
+.DropdownCategoryTitle{
+    background-color: transparent !important;
+    border: none !important;
+    color: #000;
+    margin: 0px 50px;
+}
+.DropdownCategorySubmenu{
+    width: fit-content !important;
+    font-size: 12px;
+}
+.accordion{
+  margin-top: 40px;
+}
+  .accordion label {
+  display: block;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 900;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .accordion::after{
+    content: icon;
+  }
+  .accordion p {
+  color: #262626;
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+  
+  #acoordion1:checked ~ .single-text{
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  }
+  
+  #acoordion1{
+  display: none;
+  position: relative;
+  }
+
+
+@media only screen and (max-width: 600px)
+{
+  .accordion label{
+    font-size: 13px;
+  }
+}
+

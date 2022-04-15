@@ -1,0 +1,23 @@
+.DonationAmount{
+    font-size: 12px;
+    margin-right: 5px;
+    font-weight: 500;
+    color: black;
+    border-radius: 0px;
+    width: 170px;
+    margin: 30px;
+    border:dashed 2px #FFB300;
+}
+.DonateNowButton{
+    font-size: 12px;
+    border-radius: 0px;
+    width: 150px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+@media only screen and (max-width: 979px) {
+    .DonationAmount{
+        margin-top: 0px;
+
+    }
+}

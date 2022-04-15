@@ -1,0 +1,39 @@
+.Title{
+    font-size: 13px;
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 3%;
+    border-bottom: 2px solid #FFB300;
+    line-height: 30px;
+    /* width: 15%; */
+}
+
+@media only screen and (max-width: 1024px)
+{
+    .Title{
+        font-size: 12px;
+        margin-left: 4%;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .Title{
+        font-size: 10px;
+        margin-left: 3%;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .Title{
+        font-size: 10px;
+        margin-left: 5%;
+    }
+}
+@media only screen and (max-width: 490px)
+{
+    .Title{
+        width: 30%;
+        font-size: 10px;
+        margin-left: 5%;
+    }
+}

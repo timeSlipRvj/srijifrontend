@@ -1,0 +1,10 @@
+.HorizontalCardsList{
+    display: flex;
+    overflow-y: hidden;
+    margin-left: 1.5%;
+    overflow-x: scroll;
+}
+
+ .HorizontalCardsList::-webkit-scrollbar{
+    display: none !important;  
+} 

@@ -1,0 +1,101 @@
+.Reviews{
+    height: 500px;
+    padding: 15px;
+}
+.StarRating{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 6px;
+    /* margin-right: 10vw; */
+}
+.FlexBox{
+    display: flex;
+}
+.AiFillStar{
+    color: #ffb300;
+}
+.addReviews{
+    text-align: right;
+    width: 70%;
+}
+.WriteReviews{
+    height: 120px;
+    width: 88%;
+}
+.ShowOthersReviews{
+    margin-top: 10px;
+    width: 70%;
+    overflow-y: scroll;
+    height: 230px;
+}
+.ShowOthersReviews::-webkit-scrollbar{
+    display: none;
+}
+
+.AddToCardButton{
+    background-color: #FFB300 !important;
+    border-color: #FFB300 !important;
+    font-size: 12px;
+    border-radius:0px ;
+    height: 50px;
+    margin-left: 20px;
+    padding: 10px;
+    color: rgb(0, 0, 0) !important;
+    box-shadow: none !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .ShowOthersReviews{
+        width: 90%;
+    }
+    .addReviews{
+        text-align: right;
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .Reviews{
+        height: 550px;
+        padding: 15px;
+    }
+    .ShowOthersReviews{
+        width: 100%;
+    }
+    .FlexBox{
+        display: block;
+        text-align: center;
+    }
+    .addReviews{
+        text-align: center;
+        width: 100%;
+    }
+    .WriteReviews{
+        height: 90px;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .StarRating{
+        font-size: 25px;
+    }
+    .AddToCardButton{
+        background-color: #FFB300 !important;
+        border-color: #FFB300 !important;
+        font-size: 9px;
+        border-radius:0px ;
+        height: 30px;
+        margin-left: 20px;
+        padding: 7px;
+        color: rgb(0, 0, 0) !important;
+        box-shadow: none !important;
+    }
+    .Reviews{
+        text-align: center;
+    }
+    .WriteReviews{
+        height: 90px;
+        width: 95%;
+    }
+}
+

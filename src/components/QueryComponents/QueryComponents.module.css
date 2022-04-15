@@ -1,0 +1,78 @@
+.QueryComponent{
+    margin: 3%;
+}
+.QueryInput{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.QueryInput p{
+    margin-right: 20px;
+}
+.QueryInput Button{
+    margin-right: 20px;
+}
+.InputCardDetails{
+    display: block;
+    width: 90%;
+    margin: 8px;
+    border: 1px solid #FFB300 !important;
+    outline:none !important;
+    height: 40px;
+    padding: 10px;
+}
+
+#QueryInputSection{
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.SendButton{
+    background-color: #FFB300 !important;
+    border-color: #FFB300 !important;
+    font-size: 12px;
+    border-radius:0px ;
+    width: 25% !important;
+    height: 40px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: none !important;
+}
+
+@media only screen and (max-width: 1024px){
+    .QueryInput{
+        width: 70%;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    .QueryInput{
+        width: 80%;
+    }
+    
+}
+@media only screen and (max-width: 600px){
+    .QueryInput{
+        width: 90%;
+    }
+    .InputCardDetails{
+        font-size: 12px;
+        height: 30px;
+    }
+    .QueryComponent{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .QueryInput{
+        width: 100%;
+    }
+    .InputCardDetails{
+        font-size: 12px;
+        height: 30px;
+    }
+    .QueryComponent{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,26 @@
+.ProductReviews{
+    margin: 3%;
+    border: 0.073vw solid #707070;
+    padding: 10px 20px;
+}
+.icons{
+    border-bottom: 0.073vw solid #707070;
+
+}
+.Specifications{
+    margin-left: 20px ;
+    cursor: pointer;
+    line-height: 40px;
+}
+.Reviews{
+    margin-left: 20px ;
+    cursor: pointer;
+
+}
+.Description{
+    cursor: pointer;
+}
+.ShowBox{
+    margin: 25px 15px;
+    border: 0.073vw solid #707070;
+}

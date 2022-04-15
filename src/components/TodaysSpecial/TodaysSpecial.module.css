@@ -1,0 +1,175 @@
+.TodaysSpecial{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}    
+.SpecialProductImage{
+    width: 650px;
+    margin: 30px;
+}
+.SpecialImagePart{
+    grid-column:1/2;
+}
+
+.SpecialTextPart{
+    padding-left: 20px;
+}
+.DiscountPart{
+    font-size: 60px;
+    font-weight: 700;
+    color: red;
+}
+.HorizontalCard{
+    min-width: 43%;
+    margin: 20px ;
+    height: 300px;
+}
+
+.CardImage{
+    width: 50%;
+    height: auto;
+    display: inline;
+    float:left
+}
+.CardText{
+    width: 50%;
+    display: inline !important;
+    float: right;
+    padding-left: 20px;
+}
+.CategoryName{
+    font-style: Eurostile;
+    font-size: 10px;
+    color: #171717;
+    margin-bottom: 10px;
+}
+.ProductName{
+    font-size: 18px;
+    font-weight: 700;
+}
+.ProductDesc{
+    margin-bottom: 10px;
+    font-size: 16.5px;
+    font-weight: 700;
+}
+.AiFillStar{
+    color: #F5EC00;
+    font-size: 20px;
+}
+.Price{
+    font-size: 20px;
+    padding-top: 50px;
+}
+.PrevPrice{
+    font-size: 16px;
+    color: red;
+    /* padding-top: 50px; */
+    padding-left: 10px;
+    text-decoration:line-through;
+}
+.Rating{
+    padding: 10px 0px 0px 0px;
+}
+.TopReviews{
+    color: #FFB300;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ProfilePic{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.ReviewProfile{
+    width: 47%;
+    display: inline-block;
+    margin:3px;
+}
+.Name{
+    padding:10px;
+}
+.AddToCardButton{
+    background-color: #FFB300 !important;
+    border-color: #FFB300 !important;
+    font-size: 12px;
+    border-radius:0px ;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    width: 120px;
+
+    padding: 5px;
+}
+.HorizontalCardButtons{
+    padding-top: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.BuyNowButton{
+    background-color: #fff !important;
+    color: #000 !important;
+    border: #FFB300 solid 1px !important;
+    font-size: 12px;
+    width: 120px;
+    padding: 5px;
+    border-radius:0px ;
+    padding: 5px;
+}
+
+
+.ProductDetailsButton{
+    
+    background-color: #FFB300 !important;
+    border-color: #FFB300 !important;
+    font-size: 12px;
+    border-radius:0px ;
+    width: 180px;
+    padding: 6px;
+    float: right;
+    margin-top:20px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 1300px) {
+    .SpecialProductImage{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .SpecialProductImage{
+        width: 90%;
+        margin: 0px;
+    }
+    .TodaysSpecial{
+        display: block;
+    }
+    .SpecialTextPart{
+        width: 80%;
+        margin: auto;
+        padding-left: 0px;
+        height: 550px;
+    }
+    .SpecialImagePart{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .Price{
+        padding-top: 10px;
+    }
+   }
+@media only screen and (max-width: 599px) {
+    .SpecialTextPart{
+        height: 600px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .SpecialTextPart{
+        height: 650px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .SpecialTextPart{
+        height: 700px;
+    }
+}

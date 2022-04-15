@@ -1,0 +1,130 @@
+
+ .PersonalInfo{
+    margin-right: 5%;
+} 
+.InputPersonalInfo{
+    padding: 8px;
+    margin-top: 12px;
+    border: 1px solid #DDDDDD;
+    width: 208px;
+}
+#SecondBoxInALine{
+    margin-left: 8px;
+}
+.PersonalInformation{
+    border-bottom: 2px solid #FFB300;
+    display: inline;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+.PersonalInfo::-webkit-scrollbar{
+    display: none;
+}
+.ProfileEditButton{
+    display: inline;
+    float: right;
+    color: #FFB300;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+.SaveDetailsButton{
+    margin:20px;
+    background-color: #FFB300 !important;
+    border-color: #FFB300 !important;
+    font-size: 12px;
+    border-radius:0px ;
+    width: 45% !important;
+    outline: none !important;
+    text-align: center !important;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+.ProfileImage{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+}
+
+#CountryCode{
+    width: 60px;
+}
+.Image{
+    padding: 20px 30px 20px 0px;
+    text-align: center;
+    width: 450px;
+}
+
+.lastLinepersonal{
+    font-size: 10px;
+    color: #7D7D7D;
+    margin: auto;
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 1240px)
+{
+   .PersonalInfo{
+       margin: auto;
+       display: block;
+       width: 80%;
+   }
+   .Image{
+       margin: auto;
+   }
+   .inputboxpersonal{
+       text-align: center;
+   }
+   .lastLinepersonal{
+       text-align: center;
+   }
+   .lastLinepersonal{
+    font-size: 10px;
+    color: #7D7D7D;
+    margin: auto;
+    margin-top: 30px;
+}
+   
+}
+
+@media only screen and (max-width: 760px)
+{
+    .PersonalInfo{
+        margin: auto;
+        display: block;
+        width: 92%;
+    }
+    .InputPersonalInfo{
+        padding: 5px;
+        font-size: 13px;
+        width: 150px;
+    }
+    .Image{
+        width: 100%;
+    padding: 20px 0px 20px 0px;
+
+    }
+    .ProfileImage{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 340px)
+{
+    .InputPersonalInfo{
+        padding: 4px;
+        font-size: 12px;
+        width: 120px;
+    }
+    .Image{
+        width: 100%;
+    padding: 20px 0px 20px 0px;
+
+    }
+    .ProfileImage{
+        width: 100px;
+        height: 100px;
+    }
+}

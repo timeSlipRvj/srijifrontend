@@ -1,0 +1,85 @@
+
+.FilterBar{
+    display: flex;
+    margin: 10px 3%;
+    justify-content: space-between;
+}
+.SearchBar{
+    border-bottom:1px solid #000 ;
+    width: 180px;
+    box-shadow: none !important;
+    outline: none !important;
+
+}
+.SearchButton{
+    font-size: 25px;
+    background-color: #fff;
+    border:none;
+}
+
+.Filter{
+    background-color:#fff !important;
+    border: none !important;
+    color: #000 !important;
+}
+ .Filter:hover, .Filter:active,.Filter:focus, .Filter:focus-visible{
+     background-color: #fff !important;
+     border: none !important;
+     color: #000 !important;
+     box-shadow: none !important;
+     outline: none !important;
+ }
+.GreyHeads{
+    color: #757575;
+}
+.FilterDropdown{
+    display: inline;
+}
+.DropDownItem{
+    background-color: #fff !important;
+}
+@media only screen and (max-width: 800px)
+{
+    .FilterBar{
+        display:block; 
+    }
+   .SearchSpan{
+       /* float: right; */
+       display: block;
+       text-align: center;
+       float: none;
+   }
+   .SearchBar{
+       width: 200px;
+   }
+   .DropDownItems{
+       font-size: 13px !important;
+   }
+}
+@media only screen and (max-width: 600px)
+{
+    .FilterBar{
+        display:block; 
+        font-size: 12px;
+    }
+    .Filter{
+        font-size: 12px;
+    }
+   .SearchBar{
+       width: 150px;
+   }
+}
+@media only screen and (max-width: 420px)
+{
+    .FilterBar{
+        display:block; 
+    }
+   .SearchSpan{
+       display: block;
+       text-align: center;
+       float: none;
+   }
+   .SearchBar{
+       width: 150px;
+   }
+}

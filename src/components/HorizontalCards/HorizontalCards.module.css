@@ -1,0 +1,125 @@
+.HorizontalCard{
+    min-width: 43%;
+    margin: 20px ;
+    height: fit-content;
+}
+
+.CardImage{
+    width: 45%;
+    height: auto;
+    display: inline;
+    float:left
+}
+.CardText{
+    width: 55%;
+    display: inline !important;
+    float: right;
+    padding-left: 20px;
+}
+.CategoryName{
+    font-style: Eurostile;
+    font-size: 10px;
+    color: #171717;
+    margin-bottom: 10px;
+}
+.ProductName{
+    font-style: Eurostile;
+    font-size: 18px;
+    font-weight: 700;
+}
+.ProductDesc{
+    margin-bottom: 10px;
+    font-size: 16.5px;
+    font-weight: 700;
+}
+
+.Price{
+    font-size: 20px;
+}
+.Rating{
+    padding: 10px 0px 0px 0px;
+}
+
+.AddToCardButton{
+    background-color: #FFB300 !important;
+    border-color: #FFB300 !important;
+    font-size: 12px;
+    border-radius:0px ;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+.HorizontalCardButtons{
+    padding-top: 20px;
+    display: flex;
+    justify-content: justify;
+}
+.BuyNowButton{
+    background-color: #fff !important;
+    color: #000 !important;
+    border: #FFB300 solid 1px !important;
+    font-size: 12px;
+    padding: 5px;
+    border-radius:0px ;
+    padding: 5px;
+}
+
+
+@media only screen and (max-width: 1275px) {
+    .HorizontalCard{
+        min-width: 60%;
+        height: fit-content;
+    }
+    
+}
+@media only screen and (max-width: 950px) {
+    .HorizontalCard{
+        min-width: 80%;
+        height: fit-content;
+    }
+}
+@media only screen and (max-width: 790px) {
+    .HorizontalCard{
+        min-width: 85%;
+        height: fit-content;
+    }
+    .ProductName{
+        font-style: Eurostile;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .ProductDesc{
+        margin-bottom: 10px;
+        font-size: 13.5px;
+        font-weight: 700;
+    }
+    .Price{
+        font-size: 16px;
+    }
+    .Rating{
+        font-size: 13px ;
+        padding: 10px 0px 0px 0px;
+    }
+    .AddToCardButton,.BuyNowButton{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 541px) {
+    .HorizontalCard{
+        min-width: 100%;
+        height: fit-content;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .CardImage, .CardText{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .HorizontalCard{
+        min-width: 60%;
+        height: fit-content;
+    }
+}

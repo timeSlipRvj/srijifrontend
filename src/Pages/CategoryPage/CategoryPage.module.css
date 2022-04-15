@@ -1,0 +1,43 @@
+.BreadCrumb{
+    font-size: 13px;
+}
+
+.BreadCrumb ol{
+    background-color: #fff;
+    padding-left: 3%;
+    margin: 10px 0px 0px 0px ;
+}
+
+.BreadCrumb li a{
+    color:#FFB300
+}
+.NoItems{
+    width: 30%;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #ffbd24;
+    padding: 50px;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 50%;
+    
+}
+@media only screen and (max-width: 1024px) {
+    .BreadCrumb ol{
+        padding-left: 4%;
+        font-size: 12px;
+    } 
+}
+@media only screen and (max-width: 768px) {
+    .BreadCrumb ol{
+        padding-left: 3%;
+        font-size: 11px;
+    }  
+}
+@media only screen and (max-width: 600px) {
+    .BreadCrumb ol{
+        padding-left:  5%;
+        font-size: 10px;
+    }
+    
+}

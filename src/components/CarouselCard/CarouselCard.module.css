@@ -1,0 +1,114 @@
+.CarouselCard{
+    width: 46%;
+    margin: 2%;
+}
+.CarouselCardSliding{
+    min-width: 46%;
+    margin: 2%;   
+}
+.CarouselContent{
+    color: #171717;
+}
+
+.CarouselHead{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.CarouselName{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.CarouselDesc{
+    font-size: 13px;
+    text-align: justify;
+    line-height: 25px;
+}  
+
+.CarouselButton{
+    float: right;
+    display: inline;
+}
+
+.KnowMoreButton{
+    font-size: 12px;
+    margin-right: 5px;
+    width: 120px;
+    color: black;
+    border-radius: 0px;
+}
+.DonateNowButton{
+    font-size: 12px;
+    border-radius: 0px;
+    width: 120px;
+}
+
+@media only screen and (max-width: 1250px){
+
+    .CarouselCard{
+        width: 47%;
+        margin: 12px;
+    }
+    .CarouselButton{
+        float: none;
+        display: block;
+    }
+}
+@media only screen and (max-width: 960px){
+
+    .CarouselCard{
+        width:  96.5%;
+        margin: 12px;
+    }
+    .CarouselButton{
+        float: right;
+        display: inline;
+    }
+    .CarouselDesc{
+        line-height: 22px;
+    }  
+    .CarouselCardSliding{
+        min-width: 75% ;
+    }
+}
+@media only screen and (max-width: 780px){
+    .CarouselCardSliding{
+        min-width: 65% ;
+    }
+}
+@media only screen and (max-width: 610px){
+
+    .CarouselButton{
+        float: none;
+        display: block;
+    }
+    .CarouselDesc{
+        font-size: 13px;
+        line-height: 20px;
+    } 
+    .CarouselCardSliding{
+        min-width: 90% ;
+    }
+}
+@media only screen and (max-width: 425px){
+    .CarouselName{
+        font-size: 14px;
+    }
+    .CarouselDesc{
+        font-size: 12px;
+    }  
+    .CarouselCardSliding{
+        min-width: 90% ;
+    }
+}
+@media only screen and (max-width: 375px){
+   
+    .CarouselCardSliding{
+        min-width: 110% ;
+    }
+}
+
+
+

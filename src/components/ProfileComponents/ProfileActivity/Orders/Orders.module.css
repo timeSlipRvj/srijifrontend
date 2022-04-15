@@ -1,0 +1,111 @@
+.MyOrders{
+    border-bottom: 2px solid #FFB300;
+    display: inline;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.ProductsSection, .GaushalaSection{
+    margin-right: 8%;
+}
+
+.OrderDetails, .AllProducts{
+    margin-top: 1.5%;
+}
+
+.ViewDetailsButton{
+    text-decoration: underline;
+    font-size: 14px;
+    float: right;
+}
+.ProductLink{
+    text-decoration: underline;
+    font-size: 14px;
+}
+.DateOfOrder, .OrderStatus{
+    font-size: 14px;
+}
+
+.OrderStatus{
+    color: green;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.TotalPrice{
+    font-size: 13px;
+}
+
+.TotalRate{
+    font-weight: 500;
+    font-size: 13.5px;
+}
+
+.OrderProductImage{
+    width: 90px;
+    height: 110px;
+}
+
+.ProductDetails{
+    font-size: 14px;
+}
+.ProductTags{
+    margin-top: 30px;
+}
+.ProductGrid{
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 7fr;
+}
+
+.Count{
+    margin-top: 5px;
+    grid-column: 1/2 ;
+}
+
+.ImagePartOrders{
+    margin-top: 5px;
+    grid-column: 2/3;
+}
+
+.ProductDetails{
+    margin-top: 5px;
+    grid-column: 3/4 ;
+}
+
+@media only screen and (max-width: 1240px)
+{
+    .Orders{
+        width: 80%;
+        margin: auto;
+    }
+    .ProductsSection,.GaushalaSection{
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-width: 1000px)
+{
+    .ProductGrid{
+        display: grid;
+        grid-template-columns: 0.35fr 1.5fr 7fr;
+    }
+}
+
+@media only screen and (max-width: 760px)
+{
+    .ProductGrid{
+        display: grid;
+        grid-template-columns: 0.45fr 2.2fr 7fr;
+    }
+    .Orders{
+        width: 92%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 465px)
+{
+    .ProductGrid{
+        display: grid;
+        grid-template-columns: 0.7fr 3.5fr 6.5fr;
+    }
+}

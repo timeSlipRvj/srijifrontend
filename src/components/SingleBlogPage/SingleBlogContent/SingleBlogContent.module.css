@@ -1,0 +1,55 @@
+.SingleBlogContent{
+    width: 77%;
+    display: inline-block;
+}
+.BlogImage{
+    width: 100%;
+    height: 43vw;
+}
+.BlogName{
+    font-weight: 700;
+    font-size: 17px;
+}
+.Time{
+    font-size: 14px;
+    float: right;
+}
+.BlogAuthor{
+    font-style: Eurostile;
+    font-size: 10px;
+    color:#171717;
+}
+.AuthorAndTime{
+    padding: 10px 0px;
+}
+.TextContent{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1061px) {
+    .SingleBlogContent{
+        width: 100%;
+        display: block;
+    }
+    .BlogImage{
+        width: 100%;
+        height: 53vw;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .BlogName{
+        font-size: 15px;
+    }
+    .Time{
+        font-size: 12px;
+    }
+    .TextContent{
+        font-size: 13px;
+    }
+    .BlogImage{
+        width: 100%;
+        height: 63vw;
+    }
+}

@@ -1,0 +1,38 @@
+.CardList{
+    display: flex;
+    flex-wrap:wrap;
+}
+.Title{
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 3%;
+}
+
+.CardListSliding{
+    display: -webkit-box;
+    overflow-x: scroll;
+}
+.CardListSliding::-webkit-scrollbar{
+    display: none;
+}
+@media only screen and (max-width: 1024px)
+{
+    .Title{
+        font-size: 12px;
+        margin-left: 4%;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .Title{
+        font-size: 10px;
+        margin-left: 3%;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .Title{
+        font-size: 10px;
+        margin-left: 5%;
+    }
+}

@@ -1,0 +1,154 @@
+.Wishlist{
+    width: 85%;
+}
+
+.MyFavorites{
+    border-bottom: 2px solid #FFB300;
+    display: inline;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.FavoriteItems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.NoItems{
+    margin: 50px auto;
+    background-color: #ffbd24;
+    padding: 50px;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 50%;
+    vertical-align:middle;
+}
+.ProductGrid{
+    display: grid;
+    grid-template-columns: 0.6fr 2.3fr 4fr;
+    margin-top:2.5%;
+    font-size: 14px;
+    width: 43%;
+}
+
+.ImagePartOrders{
+    grid-column: 2/3;
+}
+
+.OrderProductImage{
+    height: 120px;
+    width: 100px;
+}
+.ProductName{
+    display: inline-block;
+    font-weight: 600;
+    width: 70%;
+}
+.AddToCardButton{
+    background-color: #FFB300 !important;
+    border-color: #FFB300 !important;
+    font-size: 12px;
+    border-radius:0px ;
+    width: 70% !important;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    box-shadow: none !important;
+}
+.BsFillHeartFill{
+    display: inline;
+    color: red;
+    float: right;
+    padding: 7px;
+    font-size: 30px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 50%;
+}
+.ProductDetails{
+    grid-column: 3/4;
+}
+
+.ProductLink{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1240px)
+{
+    .Wishlist{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 1000px)
+{
+    .ProductGrid{
+        display: grid;
+        grid-template-columns: 0.6fr 3fr 4fr;
+    }
+}
+@media only screen and (max-width: 760px)
+{
+    .ProductGrid{
+        display: grid;
+        grid-template-columns: 0.6fr 3.5fr 5fr;
+        width: 49%;
+
+    }
+    .Wishlist{
+        width: 92%;
+        margin: auto;
+    }
+
+}
+@media only screen and (max-width: 615px)
+{
+    .ProductDetails{
+        display: block;
+        margin-left: 17px;
+    }
+    .ProductGrid{
+        display: block;
+    }
+    .Count{
+        display: inline;
+        margin-right: 10px;
+    }
+    .ImagePartOrders{
+        display: inline;
+    }
+    .ProductGrid{
+        margin-top: 25px;
+        width: 45%;
+    }
+    .AddToCardButton{
+        width: 100px !important;
+    }
+    .ProductName{
+        width: 85%;
+    }
+    .BsFillHeartFill{
+        padding: 4px;
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 355px)
+{
+    .ProductName{
+        width: 70%;
+        font-size: 13px;
+    }
+    .AddToCardButton{
+        font-size: 11px;
+        padding: 5px;
+    }
+    .BsFillHeartFill{
+        padding: 4px;
+        font-size: 20px;
+    }
+    .ProductTags{
+        font-size: 13px;
+    }
+    .ProductLink{
+        font-size: 11px;
+    }
+}

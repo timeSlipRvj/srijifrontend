@@ -1,0 +1,66 @@
+.AboutUsPage{
+    margin: 0px 4.5%;
+}
+
+.Head{
+    margin-top: 35px;
+     font-size: 16px;
+     font-weight: 800;
+     line-height: 25px;
+}
+.Author{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.TextContent{
+    margin-bottom: 20px;
+}
+.AuthorImagePart{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.AuthorImagePart::-webkit-scrollbar{
+    display: none;
+}
+.AuthorImage{
+    width: 250px;
+    height: 400px;
+}
+.Buttons{
+    display: block;
+    background-color: #FFB300 !important;
+    border-color: #FFB300 !important;
+    font-size: 12px;
+    border-radius:0px ;
+    height: 40px;
+    margin: 30px auto;
+    width: 150px !important;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: none !important;
+}
+
+@media only screen and (max-width: 900px)
+{
+    .AuthorImage{
+        width: 250px;
+        margin: 0px 20px;
+    }
+    .AuthorImagePart{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .Author{
+        font-size: 10px;
+    }   
+    .Head{
+        font-size: 14px;
+    }
+    .TextContent{
+        font-size: 13px;
+    }
+}

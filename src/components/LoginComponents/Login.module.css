@@ -1,0 +1,118 @@
+.Login{
+    margin: 30px 3%;
+}
+
+.LoginColumn{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.SignInWithGoogle{
+    background-color: #EA4335 !important;
+    border-color: #EA4335 !important;
+    font-size: 10px;
+    border-radius:0px ;
+    width: 300px;
+    color: #fff;
+    box-shadow: none !important;
+    outline: none !important;
+    offset: none !important;
+    display: block;
+    margin :10px auto;
+    padding: 15px 80px;
+
+}
+.PasswordMatch{
+    color: green;
+}
+.PasswordDontMatch{
+    color: red;
+}
+
+.SignInWithFacebook{
+    background-color: #3583ea !important;
+    border-color: #3583ea !important;
+    font-size: 10px;
+    border-radius:0px ;
+    width: 300px;
+    color: #fff;
+    display: block;
+    margin :10px auto;
+    padding: 15px 80px;
+    box-shadow: none !important;
+    outline: none !important;
+    offset: none !important;
+}
+
+.OrButton{
+    display: flex;
+}
+
+.InputDetails{
+    margin: 10px auto;
+    height: 36px;
+    width: 300px;
+    font-size: 13px;
+    display: block;
+    border-bottom: 1px solid #707070;
+    border-radius: 0px;
+    outline: none !important;
+}
+.NewRegistration{
+    text-align: center;
+}
+
+.CreateAccountButton{
+    background-color: #FFB300 !important;
+    border-color: #FFB300 !important;
+    font-size: 12px;
+    border-radius: 0px;
+    width: 150px !important;
+    margin: 10px auto;
+    padding: 10px;
+    color: rgb(0, 0, 0) !important;
+    box-shadow: none !important;
+}
+.ForgotPassword{
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0px 5px 0px 0px;
+}
+
+.AlreadyAccount{
+    text-decoration: underline 1px solid black ;
+    line-height: 30px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.IsFree{
+    font-size: 10px ;
+}
+
+@media only screen and (max-width: 750px){
+    .LoginColumn{
+        width: 70%;
+    }
+    .SignInWithGoogle{
+        padding: 10px 60px;
+    }
+    .SignInWithFacebook{
+        
+        padding: 10px 60px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .LoginColumn{
+        width: 90%;
+    }
+    .SignInWithGoogle{
+        width: 280px;
+    }
+    .SignInWithFacebook{
+        width: 280px;
+    }
+    .InputDetails{
+        width: 280px;
+    }
+}

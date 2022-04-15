@@ -1,0 +1,18 @@
+.FavoriteItems{
+    margin: 20px 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Wishlist{
+    margin-top: 20px;
+}
+.NoItems{
+    margin: auto;
+    background-color: #ffbd24;
+    padding: 50px;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 50%;
+    
+}

@@ -1,0 +1,26 @@
+.PersonalDetails{
+    text-align: center;
+    color: #5D5D5D;
+    line-height: 28px;
+}
+.Name{
+    font-size: 14px;
+    font-weight: 700;
+}
+.MailId , .PhoneNumber{
+    font-size: 14px;
+    font-weight: 600;
+}
+.Address{
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+}
+.PayMoney{
+    font-size: 15px;
+    border-bottom:  1px solid #3D3D3D;
+    border-top:  1px solid #3D3D3D;
+}
+.Money{
+    font-weight: 700;
+}

@@ -1,0 +1,147 @@
+
+.CardDetailForm{
+    text-align: left;
+}
+.CardDetails{
+    text-align: center;
+    width: 400px;
+    font-size: 14px;
+    padding: 20px 10px 0px ;
+    line-height: 20px;
+}
+.InputCardDetails{
+    margin: 8px;
+    border: 1px solid #FFB300;
+    height: 40px;
+    padding: 10px;
+}
+.CardExpiryDetails{
+    padding-left: 35px;
+    display: block;
+}
+#CardNumber{
+    width: 300px;
+    display: block;
+    margin-left: 44px;
+
+}
+#ExpiryMonth ,#ExpiryYear{
+    width: 142px;
+}
+
+#cvv{
+    width: 100px;
+    float: left;
+    margin-left: 44px;
+}
+.CVVcontent{
+    width: 270px;
+    /* line-height: 10px; */
+    font-size: 12px;
+    padding-top: 7px;
+    text-align: left;
+    color: #9D9D9D;
+}
+
+#NameOnCard{
+    width: 300px;
+    display: block;
+    margin-left: 44px;
+}
+
+.CardDetailSaveCheckBox{
+    color:#3D3D3D;
+    padding-left: 5px;
+}
+
+.CardDetailCheckBox{
+    padding-top: 65px;
+    margin-left: 44px;
+    font-size: 13px !important;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.PayNowButton{
+    background-color: #FFB300 !important;
+    border-color: #FFB300 !important;
+    font-size: 12px;
+    border-radius:0px ;
+    box-shadow: none !important;
+    width: 45% !important;
+    height: 40px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+@media only Screen and (max-width:900px)
+{
+    .CardDetailCheckBox{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 699px)
+{
+    .CardDetailCheckBox{
+    padding-top: 40px;
+
+    }
+    .CardDetails{
+        margin: auto;
+        padding: 20px;
+    }
+}
+ 
+@media only screen and (max-width: 590px)
+{
+    .CardDetails{
+        font-size: 11px;
+        width: fit-content;
+    }
+    .PayNowButton{
+        width: 40% !important;
+        height: 30px;
+    }
+    .InputCardDetails{
+        height: 30px;
+    }
+    .CardDetailCheckBox{
+        margin-left: 0px;
+    }
+    #CardNumber{
+        margin-left: 0px;
+    }
+    #NameOnCard{
+        margin-left: 0px;
+    }
+   .CardExpiryDetails{
+       padding-left: 0px;
+   }
+   .InputCardDetails{
+       margin: 4px;
+   }
+}
+@media only screen and (max-width: 373px)
+{
+    #CardNumber{
+        width: 85%;
+    }
+    #NameOnCard{
+        width: 85%;
+    }
+    #ExpiryMonth ,#ExpiryYear{
+        width: 42%;
+        margin-left: 0px;
+    }
+    
+    #cvv{
+        width: 100px;
+        float: left;
+        margin-left: 0px;
+    }
+    .CVVcontent{
+        font-size: 10px;
+    }
+    .CardDetailSaveCheckBox{
+        font-size: 10px;
+    }
+}
+
